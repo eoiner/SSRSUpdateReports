@@ -1,6 +1,8 @@
 # SSRSUpdateReports
 C# console application that allows developers to update the XML all of their SSRS reports at once. Handy for mass front end changes.
 
+Blog Post: http://dotnetdevelopernetwork.com/ssrs-reports-mass-update-reports/
+
 # ReportServer
 Database Items : 
 dbo.ReportServer
