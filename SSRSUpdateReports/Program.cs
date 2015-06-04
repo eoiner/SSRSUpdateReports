@@ -118,6 +118,7 @@ namespace SSRSUpdateReports
                     {
                         conn.Open();
 
+                        //SSMS Query: UPDATE Catalog SET Conent = '' WHERE ItemId = ''
                         command.Parameters.AddWithValue("@Content", _currentXML);
                         command.Parameters.AddWithValue("@ItemID", fileName);
                         command.CommandText = "UPDATE Catalog SET Content = @Content WHERE ItemID = @ItemID";
